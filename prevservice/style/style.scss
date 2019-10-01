@@ -1,0 +1,102 @@
+//===================================
+#banner-principal{
+  height: 500px;
+  width: 100%;
+  background-color: orange;
+}
+//===================================
+html, body{
+  font-family: 'Open Sans', sans-serif;
+}
+section{
+  padding: 60px 0px;
+
+  #cover{
+    height: 500px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin: 40px 0;
+  
+    & > img{
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translateY(-50%) translateX(-50%);
+    }
+  }
+ 
+  h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+    color: rgba(34, 34, 34, 0.9);
+  }
+  h2{
+    font-size: 32px;
+    color: #00B09B;
+  }
+  h3{
+    font-size: 24px;
+    color: rgba(34, 34, 34, 0.9);
+  }
+  p, a{
+    font-size: 16px;
+    color: rgba(34, 34, 34, 0.9);
+  }
+
+  i{
+    color: #F7963A;
+    
+  }
+  .list-group-item{
+    border: 0;
+    background-color: #FBFBFB;
+    margin-bottom: 4px;
+  }
+}
+
+#nav{
+  .navbar-brand{
+    padding: 0;
+    margin: 0;
+  }
+  background-color: rgba(255, 255, 255, 0.2);
+  li > .nav-link{
+    vertical-align: middle;
+    color: #222222;
+    font-size: 16px;
+  }
+}
+.nossa-atuacao{
+  .icon{
+    padding: 20px;
+  }
+  .option{
+    display: block;
+    &:hover{
+      
+      text-decoration: none;
+      font-weight: 500;
+      .icon{
+        transform: scale(1.01);
+      }  
+    }  
+  }
+  
+}
+
+#footer{
+  padding: 60px 16px;
+  background-color: #4B4B4B;
+  color: rgba(255, 255, 255, 0.8);
+  h4, h6, p{
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  h4{
+    font-size: 24px;
+  }
+}
